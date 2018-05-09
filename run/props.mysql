@@ -1,11 +1,11 @@
 db=mysql
 driver=com.mysql.jdbc.Driver
-conn=jdbc:mysql://172.16.10.11:4000/tpcc5?rewriteBatchedStatements=false&useServerPrepStmts=true&useSSL=false
+conn=jdbc:mysql://REPLACEME/tpcc5?useSSL=false
 user=root
 password=
 
 warehouses=100
-loadWorkers=2
+loadWorkers=20
 
 terminals=100
 
