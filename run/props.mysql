@@ -1,10 +1,10 @@
 db=mysql
 driver=com.mysql.jdbc.Driver
-conn=jdbc:mysql://REPLACEME/tpcc?useSSL=false
+conn=jdbc:mysql://DSN/tpcc?useSSL=false
 user=root
 password=
 
-warehouses=10
+warehouses=WH
 loadWorkers=10
 
 terminals=10
